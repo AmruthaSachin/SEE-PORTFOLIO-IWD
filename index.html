@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="index.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+       
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    
+    </nav>
+
+    
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Amrutha Sachin</div>
+          <div class="text-three">Studing in RV University</div>
+         
+        </div>
+        
+      </div>
+    </section>
+
+    
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="AMRUTHA RECENT PASSPORT SIZE PHOTO (16KB).jpg" alt="Amrutha Sachin" />
+          </div>
+          <div class="right">
+           
+            <p>
+            
+
+              I am Amrutha Sachin Nagvekar, a first-semester B.Tech student at RV University. In my academic journey,
+              I excelled in my 10th grade at Sri Jnanakshi Vidyaniketan with an impressive 95% and 
+              continued the trend in my 12th grade at Sadhana PU College - BASE Education with an outstanding 96%. 
+              
+              Passionate about front-end development, I am actively seeking opportunities to apply my skills and knowledge in creating innovative and visually appealing web projects.
+             Eager to contribute my dedication and enthusiasm to projects that align with my interests in web development.
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic"><strong>Core skills</strong> </div>
+            <p><strong>Web Development-HTML,CSS and Java Script</strong><br>
+              Proficient in creating and structuring web pages.Skilled in styling and layout design, enhancing visual appeal.
+              Knowledgeable in building interactive and dynamic user interfaces.<br>
+              <strong>Programming Languages:</strong><br>
+              <strong>C: </strong>Strong foundation in procedural programming.<br>
+              <strong>C++:</strong> Familiar with object-oriented programming concepts.<br> </p>
+              
+              <p><strong><center>Additional Skills</center></strong></p>
+
+Problem Solving: A strong problem solver with a track record of tackling complex coding challenges and finding innovative solutions.<br>
+Debugging: Skilled in debugging code efficiently, identifying and resolving issues to ensure smooth functionality.
+              
+              
+        
+             
+            
+          
+    </section>
+
+    
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Hobbies</span></div>
+        <div class="boxes">
+          <div class="box">
+           
+            <div class="topic"><strong>Gardening</strong></div>
+            <p> I have a deep passion for gardening, which serves as a therapeutic escape and a creative outlet in my life.
+               With a keen interest in cultivating a variety of plants, I enjoy nurturing and maintaining a green space.</p>
+          </div>
+          <div class="box">
+            
+            <div class="topic"><strong>Painting</strong></div>
+            <p>An avid painter, I find solace and joy in expressing my creativity through art. 
+              This hobby not only serves as a therapeutic outlet but also allows me to explore and convey emotions visually.
+            </p>
+          </div>
+          <div class="box">
+            
+            <div class="topic"><strong>Embroidery</strong></div>
+            <p>Enthusiastic about embroidery, a creative and intricate craft that allows me to express my artistic side.
+              Attention to detail, patience, and a keen eye for design are some of the skills I've cultivated through my passion for embroidery.
+            </p>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>If you have exciting internship opportunities or engaging front-end development projects, I would love to connect with you. 
+             I am eager to contribute my skills and creativity to meaningful projects. 
+            Feel free to use the button below to share details about your opportunities, 
+            and I'll get back to you promptly. Looking forward to collaborating and bringing innovative ideas to life!</p>
+         
+          <div class="button">
+            <button id="redirectButton">Click here</button>
+          </div>
+          
+          <script>
+            
+            var button = document.getElementById('redirectButton')
+
+            button.addEventListener('click', function() 
+            {
+              window.location.href = 'contact_us.html';
+            });
+          </script>
+          
+
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <div class="text">
+        <span>Created By <a href="https://www.linkedin.com/in/amrutha-nagvekar-140707294/">Amrutha Sachin</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
